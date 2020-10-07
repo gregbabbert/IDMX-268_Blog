@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: "Self Hosted Fonts: The Good and The Bad"
-slug: self-hosted-fonts:-the-good-and-the-bad
+slug: self-hosted-fonts-the-good-and-the-bad
 date: 2020-09-27 21:01
 description: "Self hosted fonts: the good and the bad"
 featuredImage: /assets/photo-1551739440-5dd934d3a94a.jpg
