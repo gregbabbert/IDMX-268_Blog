@@ -10,7 +10,7 @@ When making websites, one of the most important things nowadays is that your web
 
 Media queries have to be done for a lot of different screen sizes, which can become a lot of work and fill your CSS with code. There’s got to be another way right? Well, recently some new functions were added to CSS to make your work easier. These functions are clamp, min, and max. These functions are used as a way to make it easier to scale websites so that as the website gets bigger and smaller their font and width also adjust accordingly. Let's look at the function max() first. Before when you wanted to set the width of your content you might make CSS code that looks like:
 
-\`\``html
+\`\``
 
 body { width: 75%; max-width: 600px; }
 
@@ -18,7 +18,7 @@ body { width: 75%; max-width: 600px; }
 
 This makes the body of your website seventy-five percent of the screen, but once the website grows and reaches a width of six hundred pixels it stops there. With the max() function this can all be done in one line of code:
 
-\`\``html
+\`\``
 
 body { width: max(75%, 600px); }
 
