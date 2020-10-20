@@ -10,20 +10,29 @@ When making websites, one of the most important things nowadays is that your web
 
 Media queries have to be done for a lot of different screen sizes, which can become a lot of work and fill your CSS with code. There’s got to be another way right? Well, recently some new functions were added to CSS to make your work easier. These functions are clamp, min, and max. These functions are used as a way to make it easier to scale websites so that as the website gets bigger and smaller their font and width also adjust accordingly. Let's look at the function max() first. Before when you wanted to set the width of your content you might make CSS code that looks like:
 
-\`\``
-
-body { width: 75%; max-width: 600px; }
-
-\`\``
+```css
+body {
+    width: 75%;
+    max-width: 600px;
+}
+```
 
 This makes the body of your website seventy-five percent of the screen, but once the website grows and reaches a width of six hundred pixels it stops there. With the max() function this can all be done in one line of code:
 
-\`\``
-
-body { width: max(75%, 600px); }
-
-\`\``
+```css
+body {
+    width: max(75%, 600px);
+}
+```
 
 This one line of code does the same thing as the other two lines of code, which makes this function very useful. The max function can also be used for fonts, so that as you make your website’s screen bigger and smaller the words inside still look okay. The min function does the same thing as the max function, except it stops changing once the element gets to a minimum size.
 
-The final function I want to go over is the clamp function, which is even better than the min and max functions. The reason why it’s better is because it’s actually a combination of the two. The clamp function works by taking in three values: a min, a max, and a value that it should try to be. It doesn’t matter what order these numbers are in, there just have to be the three of them. How the function works is it sets the function to the middle value, and then as the screen size goes up or down the size of the element goes towards the min and max values. Once the size of the element reaches one of these values, it stops changing in size. These three functions are very useful and will help make web developers not have to use as much code.
+The final function I want to go over is the clamp function, which is even better than the min and max functions. The reason why it’s better is because it’s actually a combination of the two. The clamp function works by taking in three values: a min, a max, and a value that it should try to be. Here's an example of how it's use:
+
+```
+body {
+    width: clamp(200px, 50%, 1000px);
+}
+```
+
+In this example the minimum width would be set to 200px, while the preferred width is set to 50%, and then the maximum width is set to 1000px. It doesn’t matter what order these numbers are in, there just have to be the three of them. How the function works is it sets the function to the middle value, and then as the screen size goes up or down the size of the element goes towards the min and max values. Once the size of the element reaches one of these values, it stops changing in size. These three functions are very useful and will help make web developers not have to use as much code.
