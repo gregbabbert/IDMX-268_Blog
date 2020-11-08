@@ -1,0 +1,23 @@
+---
+template: blog-post
+title: How to Use a Mask
+slug: how-to-use-a-mask
+date: 2020-10-18 22:38
+description: How to use a mask
+featuredImage: /assets/john-noonan-qm_le41vjj4-unsplash.jpg
+---
+<!--StartFragment-->
+
+In CSS there are countless ways to make your code more interesting. There are so many different CSS properties that can do so many cool things to your HTML or to an image, it’s hard to remember all of them. Some CSS properties are really cool, but they aren’t used very often so they aren’t very important to learn. One of these such CSS properties is the mask property. The mask property is used to cover up a section of HTML or an image so that only the things not under the cover can be seen. A great way to think about what the mask property does is to imagine a mask, one of the masks that covers your whole face and has eye holes.When you where this mask no one can see your face, the only things that people can see are your eyes. This is essentially what the CSS mask property does, it covers up either HTML or an image so that only parts of it can be seen. For example, let's say that you have an image of a balloon that you want to edit. You want the balloon to stand out more so maybe you decide to fade out the sky around it. You can do this by making a mask around the balloon, which would allow you to make the sky have a higher opacity than the balloon.
+
+
+
+The CSS mask property isn’t just one property though, it’s actually a CSS property family. This means that there’s a lot of different mask properties that go into making a CSS mask work. To use the CSS mask property family it’s important to know what properties are needed to make the mask work. One of the most important properties is the mask-image property. This property works like the background-image CSS property, it lets you set an image as a mask. To use this property you need to provide a url of the mask image you want to use. Another property that should be used alongside the mask-image property is the mask-size property. This property is pretty self explanatory, it lets you set the size of the image that you’re using as the background. This property also works in a similar way to the background property background-size and it accepts values such as ‘cover’ and ‘contain.’ There are many other properties in the mask property family to use which you can easily find out about by searching online. Beside the masking family’s many different properties, there’s also a lot of other cool things you can do with it. As I’ve said before, you can use the mask family to mask over an image, but this family is also great because it can be used on an SVG. The advantage of this is that you can then apply the SVG over elements made out of HMTL. Another cool thing you can do is make a CSS mask work as a gradient. This can be helpful if you want to put words over an image but think that the words would be too dark over the image, too combat this you can make a gradient to let the area your words are be lighter. The final other cool thing you can do with the CSS mask family is you can apply two masks to one image. This can let you make a lot of very cool designs and effects to an image.
+
+
+
+When working with properties in CSS, you’ll probably end up finding properties that almost do the same thing as other properties. When this happens it can be confusing to know which property you should use, and you might even wonder why this other property exists. The CSS mask family is one of those things in CSS that you might feel like you don’t need because there’s other properties you could use to do the same exact thing. One property that could be confused with the mask family is the clipping CSS property. The clipping property is similar to the mask family, it’s used to cut a shape out of another shape. That’s basically what the mask family does, so what’s the difference? The main difference is that with the mask family you’re making shapes by changing the opacity of parts of an image, the clipping property makes images by making things in an image either visible or invisible. So while with the mask family you can adjust how much of the image under the mask you can see, with the clipping property you can either see the image or you can’t. There are other differences between the two, but the main difference is their levels of opacity. When choosing a property to use it’s important to understand what it does and what it’s best for. The CSS mask family is a great family for covering up sections of HTML or an image, so if you ever need to do something similar you should look to the mask property family.
+
+
+
+<!--EndFragment-->
